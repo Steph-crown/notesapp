@@ -146,7 +146,7 @@ function saveNote()
 		if (!textTitle.value || !text.value)
 		{
 			//Raises an alert to error
-			alert('Please add Title and task description');
+			alert('Please add Title and task description or click X to go back');
 		}
 		
 		//Otherwise
