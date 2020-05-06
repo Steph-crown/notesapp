@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+	<html id="html">
+		<head>
+			<meta name ="viewport" content="width = device-width, initial-scale=1">
+			<title>Note App</title>
+			<link rel="icon" href="favicon.ico" sizes="16x16" type="image/ico"> 
+			<link href="style.css" type="text/css" rel="stylesheet">
+			<script type="text/javascript" src="note.js"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		</head>
+		<body id="body">
+			<nav id="nav">
+				<div class="headColor" id="head"></div>
+				<div class="bottom">
+					<div id="title"><h1>All Notes</h1></div>
+					<div id="switch" onclick="switchTheme()"><p>SwitchTheme</p></div>
+				</div>
+			</nav>
+			<section id="container">
+			
+			</section>
+			<div id="add" onclick="addNote()"><i class="fa fa-plus" style="font-size:200%"></i></div>
+			<div id="clearButton" onclick="clearAllNow()">Clear</div>
+		</body>
+	</html>

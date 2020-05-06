@@ -1,0 +1,240 @@
+:root{
+	--main-color : rgb(80,230,160);
+	}
+#body{
+	background-color : white;
+	}
+#clearButton, #add{
+	background-color : var(--main-color);
+	width : 50px;
+	height : 50px;
+	position : fixed;
+	color : white;
+	display:flex;justify-content:center;align-items:center;align-content:center;
+	border-radius : 50%;
+	bottom : 5px;right : 20px;
+	box-shadow : 0 3px 3px grey;
+	text-align : center;
+	z-index : 1;
+	transition : 0.5s;
+	opacity : 1;
+	}
+#clearButton{
+	left : 20px;
+	font-family : text1;
+	}
+i{
+	margin-top : 20%;
+	}
+#container{
+	background-color : white;
+	padding-bottom : 30px;
+	margin-top : 100px;
+	margin-left : -8px;
+	margin-right : -8px;
+	//display : flex;	justify-content : center;
+	}
+nav{
+	position : fixed;top:0;left:0;right:0;
+	}
+.headColor{
+	background-color : var(--main-color);
+	height : 4vh;
+	}
+.bottom{
+	display:flex; justify-content : space-between;
+	padding : 2px 15px;
+	align-items : center;
+	background-color : #ccc;
+	border-radius : 0 0 10px 10px;
+	box-shadow : 0 5px 1px grey;
+}
+#switch{
+		background-color : var(--main-color);
+		padding-left : 5px;padding-right : 5px;
+		border-radius : 50px;
+		box-shadow : 0 4px 1px grey;
+		transition : 0.3s ease;
+		font-family : text2;
+		font-size : 100%;
+		font-weight : bold;
+		letter-spacing : 1px;
+	}
+h1{
+	font-family : text1;
+	letter-spacing : 1px;
+	word-spacing : 1px;
+	color : black;
+	font-size : 150%;
+	}
+#switch:active, #add:active, #clearButton:active{
+	box-shadow : 0;
+	opacity : 0.5;
+	}
+@font-face{
+	font-family : text1;
+	src : url(american.ttf);
+	}
+@font-face{
+	font-family : text2;
+	src : url(bundle.ttf);
+	}
+@font-face{
+	font-family : text3;
+	src : url(Allt.ttf);
+	}
+@font-face{
+	font-family : text4;
+	src : url(Aisoo.ttf);
+	}
+@font-face{
+	font-family : text5;
+	src : url(Star.ttf);
+	}
+h4{
+	text-align : center;
+	font-family : text2;
+	font-size : 200%;
+	line-height : 50px;
+	letter-spacing : 3px;
+	color : grey;
+	}
+#save, #back{
+	color : var(--main-color);
+	font-size : 200%;
+	position : fixed;
+	top : 40px;
+	z-index : 2;
+	}
+#save{
+	left : 20px;
+	}
+#back{
+	right : 20px;
+	}
+input{
+	outline:none;
+	background-color : transparent;
+	border : 0;
+	border-bottom : 2px solid grey;
+	transition : 0.3s ease;
+	color : inherit;
+	width : 100%;
+	font-family :;
+	font-size : 150%;
+	//margin-top : -20px;
+	font-family : text4;
+	letter-spacing : 2px;
+	display : block;
+	margin : auto;
+	position : fixed;
+	top : 120px;
+	color : var(--main-color);
+	}
+form{
+	width : 95%;
+	display : block;
+	margin : auto;
+	}
+label{
+	//position : relative;
+	z-index : 1;
+	}
+label p{
+	font-family : text3;
+	padding-top : 5px;
+	font-weight : bold;
+	font-size : 150%;
+	position : fixed;
+	top : 60px;
+	left:100px;
+	color : var(--main-color);
+	}
+textarea{
+	position : fixed;
+	height : 50%;
+	width : 97%;
+	margin-top : 15px;
+	border : none;
+	outline : none;
+	font-size : 120%;
+	background-color : transparent;
+	color : inherit;
+	top : 150px;
+	font-family : text5;
+	}
+	li{
+		/*border : 2px dotted black;
+		border-radius : 20px 0 20px 0;*/
+		background-color : transparent;
+		color : inherit;
+		/*	list-style-type : none;
+		display : flex;*/
+		border-bottom : 1px solid grey;
+		margin-left : -40px;
+	//	padding : 5px 10px;
+		padding-bottom : -5px;
+		transition : 1s ease;
+		//	display:flex;flex-direction:column;align-content:space-between;
+	}
+	li:hover{
+		box-shadow : 5px 5px 3px grey;
+		border-radius : 0 20px 0 20px;
+		border : 2px outset var(--main-color);
+	}
+	.listHead{
+		display : flex;
+		flex-direction:row;
+		justify-content : space-between;
+		padding-left : 20px;
+	}
+	.buttons{
+		display :flex;
+		flex-direction : column;
+		margin-right : 10px;
+	}
+	li h2{
+		font-size : 150%;
+		text-decoration : underline;.
+		margin-left : 10px;
+		margin-right : 10px;
+		font-family : text3;
+		text-align : center;
+		margin-top : 5px;
+	}
+	li p{
+		text-align : left;
+		font-size : 80%;
+		font-family : Consolas;
+		padding-left : 20px;
+	}
+	.span{
+		text-align : center;
+		font-size : 150%;
+		transition : 0.1s;
+		color : inherit;
+	}
+	.span p{
+		text-shadow : 2px 2px 2px grey;
+	}
+	.press{
+		margin-top : 4px;
+		padding : 4px;
+		background-color : transparent;
+		color : #1c0e36;
+		border-radius : 10px;
+		text-align : center;
+	/*	box-shadow : 4px 4px 1px grey;*/
+		transition : 0.1s ease;
+		font-family : text3;
+		font-size : 70%;
+		color : grey;
+	}
+	/*.press:active{
+		box-shadow : 1px 1px 1px grey;
+	}
+	*/
+	
+/*background = ["#0e0e0c", "#ff5500", "#eb996e", "black", "yellow", "#452542", "#d03d30", "#f49469", "#5db04c"]
+var text = ["#f71d15", "0e0e0c", "#352748", "yellow", "black", "var(--main-color)", "white", "#1c0e36", "white"]
+	*/
